@@ -5,7 +5,7 @@ import Card from './Card'
 
 function Sorteio(props){
     const {min, max} = props
-    const aleatorio = parseInt(parseInt(Math.random() * (max - min)) + min)
+    const aleatorio = parseInt(Math.random() * (max - min)) + min
     return(
         <Card title="Sorteio de um número" purple>
             <div>
